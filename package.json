@@ -1,0 +1,40 @@
+{
+  "name": "pi-conversation-sidebar",
+  "version": "0.1.0",
+  "description": "A right-side conversation index for the Pi fullscreen TUI with quick message jumping.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi",
+    "pi-package",
+    "pi-extension",
+    "tui",
+    "sidebar",
+    "conversation"
+  ],
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/000b000/pi-conversation-sidebar.git"
+  },
+  "homepage": "https://github.com/000b000/pi-conversation-sidebar#readme",
+  "bugs": {
+    "url": "https://github.com/000b000/pi-conversation-sidebar/issues"
+  }
+}
